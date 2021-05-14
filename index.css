@@ -318,20 +318,7 @@ body {
 ::placeholder {
     color:#fff;
 }
-#footer {
-    color:#fff;
-    width:92vw;
-    padding:2vh 4vw;
-    text-align:right;
-    position:fixed;
-    
-    bottom:0;
-    font-size:16px;
-    font-weight:bold;
-}
-#footer a {
-    color:rgb(255, 50, 50) ;
-}
+
 
 ::-webkit-scrollbar {
     width:5px;
