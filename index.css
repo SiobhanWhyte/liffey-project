@@ -348,15 +348,14 @@ body {
     #work {
         display:none;
     }
-    #footer {
-        text-align:center;
-    }
+   
     #middle {
         width:90vw;
-        padding:0px 5vw;
+        padding:5rem 5vw;
     }
     #middle table {
         width:80%;
+        margin-bottom: 10rem;
     }
     .container form input {
         width:90%;
