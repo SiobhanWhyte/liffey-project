@@ -24,12 +24,13 @@ body {
 .gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
+    gap: 5rem;
     background: transparent;
     padding: 15px;
   }
   .gallery img {
     width: 100%;
+    height: auto;
     display: block;
     -webkit-filter: grayscale(1);
     filter: grayscale(1);
@@ -117,10 +118,10 @@ body {
     display:inline-block;
 }
 .box1 {
-    background:rgb(255, 50, 50);
+    background:rgb(7, 7, 7);
 }
 .box2 {
-    background:rgb(255, 50, 50);
+    background:rgb(7, 7, 7);
     margin-left:-5px;
 }
 #menu {
@@ -149,9 +150,7 @@ body {
     padding-bottom:10vh;
     
 }
-.book-now { 
-    color:red; 
-}
+
 
 #middle h1 {
     color:rgb(253, 252, 252);
@@ -326,27 +325,7 @@ body {
     margin:2vh 10px;
     transition:0.4s ease-in-out;
 }
-.btn_one:hover {
-    cursor:pointer;
-    color:rgb(255, 50, 50);
-    background:#fff;
-}
-.btn_two {
-    font-size:18px;
-    font-family: 'Josefin Sans', sans-serif;
-    color:rgb(255, 50, 50);
-    background:#fff;
-    border:3px solid #fff;
-    padding:8px 40px;
-    border-radius:80px;
-    font-weight:bold;
-    margin:2vh 10px;
-    transition:0.4s ease-in-out;
-}
-.btn_two:hover {
-    cursor:pointer;
-    padding:8px 60px;
-}
+
 .container form input {
     width:46%;
     margin:20px 1%;
@@ -396,14 +375,14 @@ body {
     background: #fff; 
 }
 ::-webkit-scrollbar-thumb {
-    background: rgb(255, 50, 50); 
+    background: rgb(5, 5, 5); 
 }
 ::-webkit-scrollbar-thumb:hover {
-    background: rgba(255, 50, 50,0.8); 
+    background: rgba(3, 3, 3, 0.8); 
 }
 ::selection {
 	color: #fff;
-	background: rgb(255, 50, 50);
+	background: rgb(10, 10, 10);
 }
 
 @media (max-width: 800px){ 
