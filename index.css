@@ -1,12 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 
 
+html { 
+    background: url("./images/brush.jpeg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
 
 body {
     padding:0;
     margin:0;
-    background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("./images/brush.jpeg") center center;
-    background-size:cover;
+    
+
     width:100%;
     height:auto;
     font-family: 'Josefin Sans', sans-serif;
@@ -392,7 +400,10 @@ body {
     }
     #middle table {
         width:80%;
-        margin-bottom: 10rem;
+       
+    }
+    table {
+    margin-bottom: 5rem;
     }
     .container form input {
         width:90%;
