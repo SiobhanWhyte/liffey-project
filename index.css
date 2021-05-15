@@ -20,7 +20,79 @@ body {
     font-family: 'Josefin Sans', sans-serif;
     overflow-y:auto;
 }
+/*opening hrs section in about container*/
+.openinghours {
+    font-family:'Roboto', sans-serif;
+    border-radius:4px;
+    margin:10px;
+    box-shadow: 0 0 10px black;
+    padding:5rem 5rem;
+    overflow: hidden;
+    display: inline-block;
+}
+.openinghourscontent {
+    justify-content: center;
+}
+.openinghourscontent h2 {
+    display:block;
+    text-align:center;
+    margin-top:.33em;
+}
+.openinghourscontent button {
+    width: 280px;
+    height: 55px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+button:hover {
+    background-color: rgb(53, 200, 236);
+    box-shadow: 0px 15px 20px rgba(2, 245, 245, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }
 
+.today {
+    color: #030303;
+}
+.opening-hours-table tr td:first-child {
+    font-weight:bold;
+}
+#open-status {
+    display:block;
+    margin-top:-1em;
+    text-align:center;
+    border:dotted lightgrey 3px;
+}
+.openorclosed:after {
+    content:" open during these hours:";
+}
+.open {
+    color: white;
+}
+.open:after {
+    content:" Open";
+    color: rgb(48, 204, 0);
+}
+.closed:after {
+    content:" Closed";
+    color: red;
+}
+.opening-hours-table tr td {
+    padding:5px;
+}
+
+/*gallery section*/
 .gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
