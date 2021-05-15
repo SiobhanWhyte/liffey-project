@@ -392,6 +392,7 @@ body {
     }
     #middle table {
         width:80%;
+        margin-bottom: 10rem;
     }
     .container form input {
         width:90%;
