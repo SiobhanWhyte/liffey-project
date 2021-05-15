@@ -232,7 +232,6 @@ body {
     width:90vw;
     height:90vh;
     padding:5vh 5vw;
-    
     color:#fff;
     z-index:9;
     position:fixed;
@@ -289,8 +288,8 @@ body {
     margin-bottom: 5rem;
 }
 
-.team-profile img {
-    border: 2px solid white;
+.team-profile {
+    border: 2px solid rgb(5, 5, 5);
     border-radius: 5%;
     max-width: 25rem;
 }
@@ -408,9 +407,14 @@ body {
         width:80%;
        
     }
+
+    .team-profile {
+        max-width: 15rem;
+    }
     table {
     margin-bottom: 10rem;
     }
+
     .container form input {
         width:90%;
     }
