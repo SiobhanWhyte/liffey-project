@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
-
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
 
 html { 
     background: url("./images/brush.jpeg") no-repeat center center fixed; 
@@ -8,27 +7,24 @@ html {
     -o-background-size: cover;
     background-size: cover;
   }
-  
-
 body {
     padding:0;
     margin:0;
-    
-
     width:100%;
     height:auto;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
     overflow-y:auto;
 }
+
 /*opening hrs section in about container*/
 .openinghours {
-    font-family:'Roboto', sans-serif;
+    font-family:'Oswald', sans-serif;
     border-radius:4px;
     margin:10px;
     box-shadow: 0 0 10px black;
     padding:5rem 5rem;
     overflow: hidden;
-    display: inline-block;
+    display: grid;
 }
 .openinghourscontent {
     justify-content: center;
@@ -41,7 +37,7 @@ body {
 .openinghourscontent button {
     width: 280px;
     height: 55px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-size: 16px;
     text-transform: uppercase;
     letter-spacing: 2.5px;
@@ -63,16 +59,17 @@ button:hover {
   }
 
 .today {
-    color: #030303;
+    color: #1192e9;
 }
 .opening-hours-table tr td:first-child {
     font-weight:bold;
+    
 }
 #open-status {
     display:block;
     margin-top:-1em;
     text-align:center;
-    border:dotted lightgrey 3px;
+    border:solid lightgrey 3px;
 }
 .openorclosed:after {
     content:" open during these hours:";
@@ -90,6 +87,7 @@ button:hover {
 }
 .opening-hours-table tr td {
     padding:5px;
+    text-align: center;
 }
 
 /*gallery section*/
@@ -125,7 +123,7 @@ button:hover {
   .button {
     width: 160px;
     height: 45px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-size: 16px;
     text-transform: uppercase;
     letter-spacing: 2.5px;
@@ -228,6 +226,7 @@ button:hover {
     color:rgb(253, 252, 252);
     font-size:70px;
     margin-top: 3rem;
+    text-transform: uppercase;
     
 }
 #about {
@@ -387,7 +386,7 @@ button:hover {
 }
 .btn_one {
     font-size:18px;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
     color:#fff;
     background:transparent;
     border:3px solid #fff;
@@ -405,7 +404,7 @@ button:hover {
     border:0px;
     border-bottom:3px solid rgba(255,255,255,0.5);
     padding:8px 10px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-size:18px;
     transition:0.4s ease-in-out;
     color:#fff;
@@ -418,7 +417,7 @@ button:hover {
     border:0px;
     border-bottom:3px solid rgba(255,255,255,0.5);
     padding:8px 10px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-size:18px;
     background:transparent;
     resize:none;
